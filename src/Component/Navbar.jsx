@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="px-[12vw] z-50 ">
+    <div className="px-[8vw] z-50 ">
     <nav className="navbar ">
       <Link to="/">
       <div className="logo text-blue-950">Spectrum
@@ -56,8 +56,8 @@ const Navbar = () => {
         <a href="/">Spectrum Voice</a>  
         </Dropdown>
         </Link>
-         <p className="flex p-3 items-center text-2xl cursor-pointer hover:bg-[#555] hover:text-white">Bussiness</p>
-         <p className="flex p-3 items-center text-2xl cursor-pointer  ml-5 hover:bg-[#555] hover:text-white">Contact Us</p>
+         <p className="flex p-3 items-center text-xl cursor-pointer hover:bg-[#555] hover:text-white">Bussiness</p>
+         <p className="flex p-3 items-center text-xl cursor-pointer  ml-5 hover:bg-[#555] hover:text-white">Contact Us</p>
       </ul>
       <div>
       <MdShoppingCart className="text-blue-700 text-3xl" />

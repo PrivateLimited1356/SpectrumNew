@@ -6,7 +6,6 @@ const Footer = () => {
     <div className="bg-[#001B33] rounded-lg ">
         <div className="px-[12vw] mt-5 p-2">
         <h1 className="text-white text-4xl font-medium">Spectrum</h1>
-        
         </div>
       
       <div className=" flex flex-col sm:grid grid-cols-[3fr_2fr_2fr_2fr]  my-10 ">
@@ -54,7 +53,7 @@ const Footer = () => {
           <li className="mt-2">Contact Spectrum</li>
           <li className="mt-2">Manage Account</li>
           <Link to='paybill'>
-          <li className="mt-2">Pay Your Bill</li>
+          <li className="mt-2">PayYour Bill</li>
           </Link>
           <li className="mt-2">Support</li>
           <li className="mt-2">Store Locator</li>
@@ -70,7 +69,7 @@ const Footer = () => {
         <p className="text-white text-lg mt-5">Not all products, pricing, and services are available in all areas. Pricing and actual speeds may vary. Internet speeds based on wired connection. Restrictions apply.</p>
 
         <p className="py-5 text-lg text-white">
-        ©2025 Charter Communications. All rights reserved.
+        ©2025 Charter Communications. All Rights Reserved.
         </p>
       </div>
     </div>

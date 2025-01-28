@@ -18,7 +18,6 @@ const Hero = () => {
                 </div>
                 <p className='ml-4 text-gray-500'>for 1 year</p>
             </div>
-
             <button className='text-2xl bg-blue-700 text-white font-medium mt-20 w-52 h-14 rounded-full'>Shop Internet</button>
         </div>
       </div>
